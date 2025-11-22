@@ -43,7 +43,7 @@ PorssisahkoApplication/
 - Count Up: https://reactbits.dev/text-animations/count-up
 - React-native-chart-kit: https://www.npmjs.com/package/react-native-chart-kit
 
-#Pohdintaa TypeScriptistä
+# Pohdintaa TypeScriptistä
 JavaScript on joustava, mutta tyypitön kieli, mikä voi johtaa virheisiin vasta tuotannossa. TypeScript tuo statisen tyypityksen, joka auttaa löytämään virheet jo kehitysvaiheessa. Selkeät tyypit tekevät koodista ennustettavaa, luettavaa ja helpommin ylläpidettävää, mikä on erityisen arvokasta tiimityössä ja suurissa projekteissa.
 
 TypeScriptin modernit ominaisuudet, kuten generics ja union-tyypit, mahdollistavat monimutkaisen logiikan selkeän mallintamisen. Vaikka käyttöönotto vaatii aluksi hieman vaivaa, se vähentää virheitä, helpottaa refaktorointia ja tekee koodista kestävää pitkällä aikavälillä.
