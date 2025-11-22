@@ -52,7 +52,7 @@ JavaScriptin tyypittömyys voi johtaa helposti virheisiin, jotka huomataan vasta
 
 Huomasin esimerkiksi tämän tiedoston kohdalla tilanteen, jossa TypeScript osoittautui erityisen hyödylliseksi.
 
-
+```
 const LATEST_PRICES_ENDPOINT = 'https://api.porssisahko.net/v2/latest-prices.json';
 
 interface ElectricityPrice {
@@ -74,7 +74,7 @@ export async function fetchLatestPriceData(): Promise<LatestPriceResponse> {
   const data: LatestPriceResponse = await response.json();
   return data;
 }
-
+```
 
 Oletetaan, että API:n palauttama data olisi muuttunut ja sisältäisi price-kentän sijaan cost-kentän. Ilman TypeScriptiä ohjelma yrittäisi käyttää price-kenttää ja kaatuisi vasta ajon aikana. TypeScript kuitenkin ilmoittaa käännösaikaisesti, että price ei ole olemassa ElectricityPrice-tyypissä. Näin virhe voidaan korjata heti, esimerkiksi päivittämällä rajapintamäärittely vastaamaan API:n todellista rakennetta.
 
