@@ -24,7 +24,6 @@ PorssisahkoApplication/
 │  ├─ CountUp.tsx
 │  ├─ DailyPriceChart.tsx
 │  ├─ HomeScreen.tsx
-│  └─ Style.tsx
 ├─ .gitignore
 ├─ app.json
 ├─ App.tsx
