@@ -39,6 +39,6 @@ PorssisahkoApplication/
 - React Native
 - TypeScript
 - JavaScript
-# Valmiit komponentit
+### Valmiit komponentit
 - Count Up: https://reactbits.dev/text-animations/count-up
 - React-native-chart-kit: https://www.npmjs.com/package/react-native-chart-kit
