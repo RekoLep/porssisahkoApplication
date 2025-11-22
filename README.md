@@ -13,7 +13,7 @@ Sovellus näyttää käyttäjälle päivän **pörssisähkön hinnan** selkeäss
 - TypeScriptin avulla tarkka tyypitys ja virheiden minimointi.
 
 ## Projektin rakenne
-```text
+```
 PorssisahkoApplication/
 ├─ .expo
 ├─ assets/
@@ -33,3 +33,5 @@ PorssisahkoApplication/
 ├─ package-lock.json
 ├─ package.json
 └─ tsconfig.json
+```
+## Käytetyt teknologiat
