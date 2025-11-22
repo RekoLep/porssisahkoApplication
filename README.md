@@ -1,0 +1,35 @@
+# Seminaarityö: Päivittäisen pörssisähkön hinnan näyttävä React Native -sovellus
+
+## Johdanto
+Tavoitteena oli tehdä React Nativella mobiilisovellus hyödyntäen TypeScriptiä. Tämä oli ensimmäinen kerta, kun käytin lähes koko projektissa TypeScriptiä. Projektin tarkoituksena oli oppia TypeScriptin käyttöä React Native -sovelluksessa ja samalla toteuttaa hyödyllinen työkalu sähkön hinnan seuraamiseen.
+
+## Sovelluksen kuvaus
+Sovellus näyttää käyttäjälle päivän **pörssisähkön hinnan** selkeässä ja helposti ymmärrettävässä muodossa. Sovellus hakee hinnat verkosta ja esittää ne visuaalisesti, esimerkiksi taulukon tai graafin muodossa.
+
+### Keskeiset ominaisuudet
+- Päivittäisen pörssisähkön hinnan näyttö.
+- Hinta esitetään tuntikohtaisesti.
+- Helppokäyttöinen mobiilikäyttöliittymä.
+- TypeScriptin avulla tarkka tyypitys ja virheiden minimointi.
+
+## Projektin rakenne
+```text
+PorssisahkoApplication/
+├─ .expo
+├─ assets/
+├─ node_modules/
+├─ src/
+│  ├─ api/
+│  │  ├─ CurrentPriceApi.ts
+│  │  └─ PaticularPrice.ts
+│  ├─ CountUp.tsx
+│  ├─ DailyPriceChart.tsx
+│  ├─ HomeScreen.tsx
+│  └─ Style.tsx
+├─ .gitignore
+├─ app.json
+├─ App.tsx
+├─ index.js
+├─ package-lock.json
+├─ package.json
+└─ tsconfig.json
