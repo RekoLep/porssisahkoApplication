@@ -35,3 +35,10 @@ PorssisahkoApplication/
 └─ tsconfig.json
 ```
 ## Käytetyt teknologiat
+- Expo
+- React Native
+- TypeScript
+- JavaScript
+# Valmiit komponentit
+- Count Up: https://reactbits.dev/text-animations/count-up
+- React-native-chart-kit: https://www.npmjs.com/package/react-native-chart-kit
